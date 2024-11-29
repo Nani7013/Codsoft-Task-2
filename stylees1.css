@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+  }
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .header {
+    background: #ff5733;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .header .logo {
+    font-size: 2rem;
+    margin-left: 30px;
+  }
+  
+  .header .nav {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .header .nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-top: 12px;
+    font-size: 20px;
+  }
+  
+  .header .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .hero {
+    background: url('fastfood-hero.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  img{
+    width: 200px;
+    height: 200px;
+
+  }
+  
+  .hero .btn {
+    padding: 0.8rem 1.5rem;
+    background: #ff5733;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .hero .btn:hover {
+    background: #c13b24;
+  }
+  
+  .menu {
+    background: #f4f4f4;
+    padding: 3rem 0;
+    text-align: center;
+  }
+  
+  .menu h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .menu-items {
+    display:grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    gap: 2rem;
+    justify-content: center;
+    
+  
+    
+  }
+  .menu-items :hover{
+    scale: 1.1;
+  }
+  .menu-item {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-item img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .menu-item h3 {
+    margin: 1rem 0 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .menu-item p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ff5733;
+  }
+  
+  .cta {
+    background: #ff5733;
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+  }
+  span{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+  }
+  .cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta .btn {
+    padding: 0.8rem 1.5rem;
+    background: white;
+    color: #ff5733;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .cta .btn:hover {
+    background: #ffd7cc;
+    color: #c13b24;
+    margin-top: 10px;
+  }
+  
+  .footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
+  #nani{
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+  }
